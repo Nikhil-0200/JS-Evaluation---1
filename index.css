@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#main > h1{
+    text-align: center;
+}
+
+#display{
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+thead > tr{
+    background-color: rgba(128, 128, 128, 0.518);
+    height: 50px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#tRow > td{
+    background-color: white;
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination > button{
+    padding: 5px 10px;
+    font-size: larger;
+    margin: 10px;
+}

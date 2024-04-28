@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Evaluation - 1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Employee Management System</h1>
+
+        <div id="display">
+            <div>
+                <label for="">Filter by Department: </label>
+                <select id="departmentFilter">
+                    <option value="all">--Select Department</option>
+                    <option value="hr">hr</option>
+                    <option value="finance">finance</option>
+                    <option value="marketing">marketing</option>
+                    <option value="engineering">engineering</option>
+                    <option value="operations">operations</option>
+                </select>
+
+                <label for="">Filter by Gender: </label>
+                <select id="genderFilter">
+                    <option value="">--Select Gender--</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+
+                <label for="">Sort by Salary: </label>
+                <select id="salaryFilter">
+                    <option value="">--Select Order--</option>
+                    <option value="asc">low to high</option>
+                    <option value="desc">high to low</option>
+                </select>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <td>S.no</td>
+                        <td>Name</td>
+                        <td>Gender</td>
+                        <td>Department</td>
+                        <td>Salary</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                </tbody>
+            </table>
+            
+            <div id="pagination">
+                <button id="prev">Previous</button>
+                <button id="next" >Next</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="index.js"></script>
